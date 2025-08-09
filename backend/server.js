@@ -2,8 +2,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import urlApiRoutes from 'file:///D:/url-shortner/backend/routes/urlRoutes.js';
-import urlRedirectRoutes from 'file:///D:/url-shortner/backend/routes/urlRedirectRoutes.js';
+import urlApiRoutes from './urlRoutes.js';
+import urlRedirectRoutes from './urlRedirectRoutes.js';
 
 
 dotenv.config();
